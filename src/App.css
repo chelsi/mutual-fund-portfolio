@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.Card {
+  background-color: #F0F8FF;
+  width: 200px;
+  height: 200px;
+  border:1px solid black;
+  margin: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#fixedbutton {
+    background-color: #e7e7e7;
+    color: black;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+table {
+    table-layout : fixed;
+    width: 100%; 
+}
